@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Card Slider</title>
+  <style>
+    .card {
+      width: 100%; /* Adjust the width as needed */
+      height: 400px; /* Adjust the height as needed */
+    }
+  </style>
+</head>
+<body>
+
+
+  <section class="about" id="about">
+    <div style="text-align: left; margin-top:20px;" class="head2">
+        <h3>OUR TEAM</h3>
+        <h5>"Competition makes us faster, <br> collaboration makes us better."</h5>
+    </div>
+    <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="card">
+                <div class="card-body">
+                  <img src="/Images/Logo.png" alt="" srcset="" >
+                  <h5 class="card-title">Member 1</h5>
+                  <p class="card-text">Head of Hackathon club</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="card">
+                <div class="card-body">
+                  <img src="/Images/Logo.png" alt="" srcset="">
+                  <h5 class="card-title">Member 2</h5>
+                  <p class="card-text">Core member of team !</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Add more carousel items as needed -->
+  
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev" style="color:yellow">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

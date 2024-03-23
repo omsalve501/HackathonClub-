@@ -1,0 +1,345 @@
+body{
+scroll-snap-type: proximity;
+background-size: 200%;
+}
+.navbar{
+    width: 100%;
+    position: relative;
+
+
+}
+.navtab{
+    margin: 2px;
+}
+.custom-navbar {
+    background-color: rgba(255, 255, 255, 0.713); /* Set the background color with transparency */
+    font-size: 18px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar-nav {
+    margin-left: 70%;
+}
+.navbar-nav li{
+    margin-left: 20px;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar-nav li:hover{
+    color:rgba(5, 252, 153, 0.566);
+}
+
+/*Navbar end basic Content*/
+.head2 h1{
+    text-align: center; 
+   
+    color:rgba(255, 255, 255, 0.812);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 100px;
+    background-color: #0c0a0a3a;
+    
+    text-decoration:wavy;
+}
+.head2 h3{
+    color: rgba(255, 255, 255, 0.812);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+}
+.head2 h5{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    color: black
+}
+
+
+
+
+
+
+
+
+
+#heading{
+    align-items: center;
+    align-self: center;
+    padding-right: 20%;
+    height: 50px;
+    display: flex;
+   
+    
+}
+
+.headtext{
+    padding-right: 20%;
+    height: 50px;
+    align-items: center;
+    align-self: center;
+}
+
+/*Home section*/
+.home .card{
+    background-color: #f5f5f53b;
+}
+@media (max-width: 600px) {
+    .carousel-inner .row {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .carousel-inner .col {
+        flex: 0 0 100%;
+    }
+}
+
+
+/* body part*/
+/* body{
+     background-image: url("/Images/bg5.avif");
+     background-color: rgb(242, 194, 167);
+     background-position:center;
+     background-repeat:no-repeat;
+     background-size: cover;
+} */
+body {
+	background: linear-gradient(-45deg, #8d3d25, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+
+
+@media (max-width: 600px) {
+    /* navbar*/
+.navbar-nav {
+    margin-left: 10px;
+    text-align: right;
+    width: 100%;
+}
+.navbar-nav li{
+    margin-left: 20px;
+    width:22%;
+    text-align: center;
+   
+    border-radius: 0px;
+    background-color: none;
+   
+}
+.navbar-brand{
+    width: 100px;
+    height: 100px;
+}
+.navbar-brand img{
+    height: 100px;
+    width: 100px;
+    border: none;
+}
+    
+    /* Styles to apply when the screen size is 600 pixels or less */
+    .card {
+        border: none;
+        display: block;
+        font-size: medium;
+        color: black;
+        
+    }
+    .hc {
+        width: 100%;
+        height: 50px;
+
+       /* Set a maximum height to avoid overlap */
+       padding-right: 20px;
+       
+       
+    }
+    .card-body{
+        display: block;
+    }
+    h3{
+        margin-bottom: 20px;
+        font-size: 13px;
+    }
+    
+    .about .card img{
+        height: 50px;
+        width: 50px;
+      
+      
+        border: 2px solid red;
+        border-radius: 100px;
+    
+    }
+    .about-club{
+        display: grid;
+        position: sticky;
+    }
+    .about-club .col-md-6 {
+        width: 310px;
+    }
+    .about-club .card {
+        display: grid;
+        flex-direction: column;
+      }
+      .about .card img{
+        height: 150px;
+        width: 150px;
+     
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 100px;
+    
+    }
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        margin-top: 100px;
+        font-size: 10px;
+       
+    }
+   
+    .footer-logo {
+        width: 50px; /* Adjust the size based on your logo */
+        height: 50px; /* Adjust the size based on your logo */
+        margin-bottom: 10px;
+
+    }
+    
+
+   
+}
+/*login page */
+
+.login-container {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+/*about*/
+.about{
+   
+
+    height: 400px;
+    width: 100%;
+     margin: 2px;
+     margin-bottom: 200px;
+     
+ 
+   
+
+}
+ .about .card{
+   color: #f5f5f5;
+    height: 400px;
+   text-align: center;
+   background-color: rgba(98, 92, 86, 0.63);
+   
+   
+    
+} 
+.about .card img{
+    height: 210px;
+    width: 210px;
+ 
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 100px;
+
+}
+
+/*About-CLub*/
+.about-club .card{
+    margin: 10px;
+}
+/*footer    */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 8%;
+   
+    justify-content: center;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    height: 100%;
+}
+
+.footer-links li {
+    margin: 0 15px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-logo {
+    width: 150px; /* Adjust the size based on your logo */
+    height: 150px; /* Adjust the size based on your logo */
+    margin-bottom: 10px;
+    margin-left: 400px;
+}
+
+
+/*Contact US*/
+
+
+#contact {
+    background-color: #1c151527;
+    padding: 80px 0;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    width: 100%;
+  }
+
+  #contact h2 {
+    color: #f5f5f5;
+  }
+
+  address {
+    font-style: normal;
+    
+  }
+
+  form {
+    background-color: #f8f9fa2e;
+    padding: 20px;
+    border-radius: 10px;
+    width: 70%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  button {
+    background-color: #007bff;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+  }
+
+
+  
